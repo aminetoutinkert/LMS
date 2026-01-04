@@ -1,0 +1,108 @@
+{
+  "auth": {
+    "login": {
+      "title": "تسجيل الدخول",
+      "description": "سجل الدخول إلى حساب EduFlow الخاص بك",
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "your@email.com"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "••••••••"
+      },
+      "submit": "تسجيل الدخول",
+      "submitting": "جاري تسجيل الدخول...",
+      "orContinueWith": "أو تابع مع",
+      "githubLogin": "تسجيل الدخول باستخدام GitHub",
+      "error": {
+        "title": "خطأ في تسجيل الدخول",
+        "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة",
+        "generic": "حدث خطأ أثناء تسجيل الدخول"
+      }
+    },
+    "register": {
+      "title": "إنشاء حساب",
+      "description": "أنشئ حساب EduFlow الخاص بك",
+      "name": {
+        "label": "الاسم الكامل",
+        "placeholder": "الاسم الثلاثي"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "your@email.com"
+      },
+      "password": {
+        "label": "كلمة المرور",
+        "placeholder": "8 أحرف على الأقل"
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور",
+        "placeholder": "أعد كتابة كلمة المرور"
+      },
+      "submit": "إنشاء حساب",
+      "submitting": "جاري الانشاء...",
+      "fields": {
+        "alreadyHaveAccount": "لديك حساب بالفعل؟"
+      },
+      "loginLink": "تسجيل الدخول",
+      "error": {
+        "title": "خطأ",
+        "passwordMismatch": "كلمات المرور غير متطابقة",
+        "generic": "حدث خطأ أثناء التسجيل"
+      }
+    },
+    "forgotPassword": {
+      "title": "نسيت كلمة المرور",
+      "description": "أدخل بريدك الإلكتروني لإعادة تعيين كلمة المرور",
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "your@email.com"
+      },
+      "submit": "إرسال الرابط",
+      "submitting": "جاري الإرسال...",
+      "successTitle": "تحقق من بريدك",
+      "successDescription": "إذا كان الحساب موجودًا، فقد أرسلنا رابط الاستعادة.",
+      "backToLogin": "العودة لتسجيل الدخول",
+      "error": {
+        "title": "خطأ",
+        "generic": "حدث خطأ ما"
+      }
+    },
+    "resetPassword": {
+      "title": "إعادة تعيين كلمة المرور",
+      "description": "اختر كلمة مرور جديدة",
+      "password": {
+        "label": "كلمة المرور الجديدة",
+        "placeholder": "8 أحرف على الأقل"
+      },
+      "confirmPassword": {
+        "label": "تأكيد كلمة المرور",
+        "placeholder": "أعد كتابة كلمة المرور"
+      },
+      "submit": "إعادة تعيين",
+      "submitting": "جاري التعيين...",
+      "successTitle": "تم تغيير كلمة المرور",
+      "successDescription": "تم إعادة تعيين كلمة المرور بنجاح.",
+      "backToLogin": "تسجيل الدخول",
+      "error": {
+        "title": "خطأ",
+        "missingToken": "رمز التحقق مفقود أو غير صالح",
+        "passwordMismatch": "كلمات المرور غير متطابقة",
+        "generic": "فشل تغيير كلمة المرور (رمز منتهي الصلاحية؟)"
+      }
+    },
+    "verifyEmail": {
+      "title": "تحقق من البريد الإلكتروني",
+      "description": "للتحقق من صحة عنوان البريد الإلكتروني الخاص بك",
+      "verifying": "جاري التحقق...",
+      "successMessage": "تم التحقق من البريد الإلكتروني بنجاح!",
+      "backToLogin": "تسجيل الدخول",
+      "error": {
+        "title": "خطأ",
+        "missingToken": "رمز مفقود",
+        "generic": "فشل التحقق (هل الرمز منتهي الصلاحية؟)"
+      }
+    }
+  }
+}

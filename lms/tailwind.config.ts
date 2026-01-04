@@ -1,4 +1,6 @@
 import type { Config } from "tailwindcss"
+// @ts-expect-error - tailwindcss-animate does not have types
+import tailwindAnimate from "tailwindcss-animate"
 
 const config = {
   darkMode: ["class"],
@@ -74,7 +76,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindAnimate],
 } satisfies Config
 
 export default config

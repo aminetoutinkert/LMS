@@ -1,0 +1,108 @@
+{
+  "auth": {
+    "login": {
+      "title": "Login",
+      "description": "Sign in to your EduFlow account",
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "••••••••"
+      },
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "orContinueWith": "or continue with",
+      "githubLogin": "Sign in with GitHub",
+      "error": {
+        "title": "Login Error",
+        "invalidCredentials": "Invalid email or password",
+        "generic": "An error occurred during login"
+      }
+    },
+    "register": {
+      "title": "Register",
+      "description": "Create your EduFlow account",
+      "name": {
+        "label": "Full Name",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "Minimum 8 characters"
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Repeat password"
+      },
+      "submit": "Register",
+      "submitting": "Registering...",
+      "fields": {
+        "alreadyHaveAccount": "Already have an account?"
+      },
+      "loginLink": "Login",
+      "error": {
+        "title": "Error",
+        "passwordMismatch": "Passwords do not match",
+        "generic": "An error occurred during registration"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "description": "Enter your email to reset your password",
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "submit": "Send Link",
+      "submitting": "Sending...",
+      "successTitle": "Check your email",
+      "successDescription": "If an account exists, we have sent a reset link.",
+      "backToLogin": "Back to login",
+      "error": {
+        "title": "Error",
+        "generic": "An error occurred"
+      }
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "description": "Choose a new password",
+      "password": {
+        "label": "New Password",
+        "placeholder": "Minimum 8 characters"
+      },
+      "confirmPassword": {
+        "label": "Confirm Password",
+        "placeholder": "Repeat password"
+      },
+      "submit": "Reset Password",
+      "submitting": "Resetting...",
+      "successTitle": "Password Changed",
+      "successDescription": "Your password has been reset successfully.",
+      "backToLogin": "Login",
+      "error": {
+        "title": "Error",
+        "missingToken": "Missing or invalid token",
+        "passwordMismatch": "Passwords do not match",
+        "generic": "Failed to reset password (expired token?)"
+      }
+    },
+    "verifyEmail": {
+      "title": "Email Verification",
+      "description": "Verifying your email address",
+      "verifying": "Verifying...",
+      "successMessage": "Email verified successfully!",
+      "backToLogin": "Login",
+      "error": {
+        "title": "Error",
+        "missingToken": "Missing token",
+        "generic": "Verification failed (expired link?)"
+      }
+    }
+  }
+}

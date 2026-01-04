@@ -1,0 +1,108 @@
+{
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "description": "Connectez-vous à votre compte EduFlow",
+      "email": {
+        "label": "Email",
+        "placeholder": "votre@email.com"
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "••••••••"
+      },
+      "submit": "Se connecter",
+      "submitting": "Connexion...",
+      "orContinueWith": "ou continuez avec",
+      "githubLogin": "Se connecter avec GitHub",
+      "error": {
+        "title": "Erreur de connexion",
+        "invalidCredentials": "Email ou mot de passe incorrect",
+        "generic": "Une erreur est survenue lors de la connexion"
+      }
+    },
+    "register": {
+      "title": "Inscription",
+      "description": "Créez votre compte EduFlow",
+      "name": {
+        "label": "Nom complet",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "votre@email.com"
+      },
+      "password": {
+        "label": "Mot de passe",
+        "placeholder": "Minimum 8 caractères"
+      },
+      "confirmPassword": {
+        "label": "Confirmation",
+        "placeholder": "Répétez le mot de passe"
+      },
+      "submit": "S'inscrire",
+      "submitting": "Inscription...",
+      "fields": {
+        "alreadyHaveAccount": "Vous avez déjà un compte ?"
+      },
+      "loginLink": "Se connecter",
+      "error": {
+        "title": "Erreur",
+        "passwordMismatch": "Les mots de passe ne correspondent pas",
+        "generic": "Une erreur est survenue lors de l'inscription"
+      }
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié",
+      "description": "Entrez votre email pour réinitialiser votre mot de passe",
+      "email": {
+        "label": "Email",
+        "placeholder": "votre@email.com"
+      },
+      "submit": "Envoyer le lien",
+      "submitting": "Envoi...",
+      "successTitle": "Vérifiez vos emails",
+      "successDescription": "Si un compte existe, nous avons envoyé un lien de réinitialisation.",
+      "backToLogin": "Retour à la connexion",
+      "error": {
+        "title": "Erreur",
+        "generic": "Une erreur est survenue"
+      }
+    },
+    "resetPassword": {
+      "title": "Réinitialiser le mot de passe",
+      "description": "Choisissez un nouveau mot de passe",
+      "password": {
+        "label": "Nouveau mot de passe",
+        "placeholder": "Minimum 8 caractères"
+      },
+      "confirmPassword": {
+        "label": "Confirmez le mot de passe",
+        "placeholder": "Répétez le mot de passe"
+      },
+      "submit": "Réinitialiser",
+      "submitting": "Réinitialisation...",
+      "successTitle": "Mot de passe modifié",
+      "successDescription": "Votre mot de passe a été réinitialisé avec succès.",
+      "backToLogin": "Se connecter",
+      "error": {
+        "title": "Erreur",
+        "missingToken": "Jeton manquant ou invalide",
+        "passwordMismatch": "Les mots de passe ne correspondent pas",
+        "generic": "Impossible de réinitialiser le mot de passe (jeton expiré ?)"
+      }
+    },
+    "verifyEmail": {
+      "title": "Vérification de l'email",
+      "description": "Validation de votre adresse email",
+      "verifying": "Vérification en cours...",
+      "successMessage": "Email vérifié avec succès !",
+      "backToLogin": "Se connecter",
+      "error": {
+        "title": "Erreur",
+        "missingToken": "Jeton manquant",
+        "generic": "La vérification a échoué (lien expiré ?)"
+      }
+    }
+  }
+}
